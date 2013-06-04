@@ -1,10 +1,12 @@
 GEM
   remote: http://rubygems.org/
   specs:
-    dice_bag (0.5.0)
+    dice_bag (0.7.0)
+      rake
+    rake (10.0.4)
 
 PLATFORMS
   ruby
 
 DEPENDENCIES
-  dice_bag (= 0.5.0)
+  dice_bag (> 0.5.0)
