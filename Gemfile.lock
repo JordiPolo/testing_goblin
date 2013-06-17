@@ -1,0 +1,41 @@
+GIT
+  remote: git@github.com:JordiPolo/gem_goblin.git
+  revision: fd4672667cabb0489ab5d7713cde6a34d92776f6
+  specs:
+    gem_goblin (0.0.1)
+      bundler (~> 1.2)
+      gems (~> 0.8)
+      git
+      octokit (~> 1.24)
+
+GEM
+  remote: http://rubygems.org/
+  specs:
+    addressable (2.3.4)
+    dice_bag (0.7.0)
+      rake
+    faraday (0.8.7)
+      multipart-post (~> 1.1)
+    faraday_middleware (0.9.0)
+      faraday (>= 0.7.4, < 0.9)
+    gems (0.8.1)
+    git (1.2.5)
+    hashie (2.0.5)
+    multi_json (1.7.7)
+    multipart-post (1.2.0)
+    netrc (0.7.7)
+    octokit (1.24.0)
+      addressable (~> 2.2)
+      faraday (~> 0.8)
+      faraday_middleware (~> 0.9)
+      hashie (~> 2.0)
+      multi_json (~> 1.3)
+      netrc (~> 0.7.7)
+    rake (10.0.4)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  dice_bag (~> 0.5)
+  gem_goblin!
